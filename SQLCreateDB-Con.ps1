@@ -30,7 +30,7 @@ $sql = "CREATE DATABASE [$dbname];"
 $cmd = New-Object Data.SqlClient.SqlCommand $sql, $con;
 $cmd.ExecuteNonQuery();     
 Write-Host "Database $dbname is created!";
- 
+ #testt 
  
 # Close & Clear all objects.
 $cmd.Dispose();
