@@ -62,7 +62,7 @@ function Add-VPVPath
 	}
 	
 }
-  #test 
+
 
 Add-VPVPath -path C:\test -folder test1
 
